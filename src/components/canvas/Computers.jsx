@@ -52,8 +52,7 @@ const ComputersCanvas = () => {
     <div 
       style={{ 
         width: isMobile ? '100%' : 'auto', 
-        height: isMobile ? '50%' : '100%', 
-        // Adjust margin top for mobile
+        height: isMobile ? '300px' : '500px', // fix cứng 
       }}
     >
       <Canvas

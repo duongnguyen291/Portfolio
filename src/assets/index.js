@@ -44,11 +44,18 @@ import snake  from  "./project/snake.png";
 import store_java from  "./project/store_java.png";
 import sorting from  "./project/sorting.png";
 import mos from  "./cert/mos.png";
-import hust from "./education/hust.png"
-import phc from "./education/phc.png"
-import avatar from "./avatar.jpg"
+import hust from "./education/hust.png";
+import phc from "./education/phc.png";
+import avatar from "./avatar.png";
+import facebook from "./facebook.png";
+import gmail from "./gmail.png";
+import linkedin from "./linkedin.png";
+
 export {
   avatar,
+  facebook,
+  gmail,
+  linkedin,
   phc,
   hust,
   mos, 

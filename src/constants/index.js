@@ -26,7 +26,12 @@ import {
   mos,
   hust,
   phc,
-
+  avatar,
+  facebook,
+  gmail,
+  linkedin,
+  github,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -319,5 +324,11 @@ const projects = [
     source_code_link: "https://github.com/duongnguyen291/OOP/tree/main/labs/AimsProjectWeek5",
   },
 ];
-
+export const images = {
+  facebook_icon: facebook,
+  github_icon: github,
+  gmail_icon: gmail,
+  avatar_icon: avatar,
+  linkedin_icon: linkedin,
+};
 export { services, technologies, experiences, certificates, projects, educations };
