@@ -91,7 +91,7 @@ const Hero = () => {
 
         </div>
 
-        <Tilt className='xs:w-[250px] w-full'>
+        <Tilt className='xs:w-[400px] sm: w-full '>
           <motion.div
             variants={fadeIn("up", "spring", 0.5, 0.75)} // Keep the fadeIn effect
             className='w-full green-pink-gradient p-[0.5px] rounded-full shadow-card' // Reduced padding here
@@ -102,12 +102,12 @@ const Hero = () => {
                 scale: 1,
                 speed: 450,
               }}
-              className='bg-tertiary rounded-full p-1 flex justify-evenly items-center flex-col' // Adjusted padding here
+              className=' bg-tertiary rounded-full p-1 flex justify-evenly items-center flex-col' // Adjusted padding here
             >
               <img 
                 src = {images.avatar_icon} 
                 alt="Your description" 
-                className="rounded-full w-full h-full object-cover object-cover"
+                className="rounded-full w-full h-full object-cover object-cover "
               />
             </div>
           </motion.div>
