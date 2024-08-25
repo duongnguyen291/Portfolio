@@ -35,7 +35,7 @@ const StarWrapper = (Component, idName) =>
         animate={inView ? "show" : "hidden"}
         onViewportEnter={() => setInView(true)}
         onViewportLeave={() => setInView(false)}
-        viewport={{ amount: viewportAmount }}  {/* Sử dụng giá trị viewportAmount từ state */}
+        viewport={{ amount: viewportAmount }}
         className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
       >
         <span className='hash-span' id={idName}>
